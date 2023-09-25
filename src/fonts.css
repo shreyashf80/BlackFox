@@ -1,0 +1,10 @@
+@import '~font-proxima-nova';
+
+@font-face {
+  font-family: 'Proxima Nova';
+  src: url('~font-proxima-nova/fonts/ProximaNova-Regular.woff2') format('woff2'),
+       url('~font-proxima-nova/fonts/ProximaNova-Regular.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+}
+
