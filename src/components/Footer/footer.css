@@ -1,0 +1,236 @@
+.center-logo {
+    display: flex;
+    align-items: center;
+    display: flex;
+    align-items: center;
+    margin-bottom: 65px;
+    padding-top: 32px;
+
+}
+
+.center-logo img {
+    width: 205px;
+    height: 129px;
+}
+
+.contact-info {
+    width: 100%;
+    margin: 0 auto;
+    text-align: left;
+    padding-top: 32px;
+    display: flex;
+    max-width: 1410px;
+    flex-wrap: wrap;
+}
+
+.info-tabs {
+    width: 33.33%;
+    display: flex;
+    font-size: 32px;
+    color: white;
+}
+
+.info-tabs.social-temp {
+    width: 33.33%;
+    display: flex;
+    flex-direction: column;
+    font-size: 32px;
+    color: white;
+}
+
+.manage {
+    font-size: 45px;
+}
+
+.info-tabs.manage li:nth-child(2),
+.info-tabs.manage li:nth-child(3) {
+    color: #858585;
+    font-size: 45px;
+}
+
+.our-mission {
+    font-size: 17px;
+    padding-bottom: 25px;
+    padding-top: 10px;
+}
+
+.mail-container image {
+    background-color: aliceblue;
+    color: aliceblue;
+
+}
+
+.sum-mod {
+    background-color: #c8c8c8;
+    border-radius: 50%;
+    margin-left: -5px;
+    margin-bottom: 21px;
+    padding: 5px;
+}
+
+
+.footer-conatiner {
+    position: absolute;
+    left: 0;
+    transform: translateX(0%);
+    width: 100%;
+    overflow: hidden;
+    background-color: black;
+    position: absolute;
+    z-index: 2;
+    width: 100%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+
+}
+
+.social-net {
+    display: flex;
+}
+
+.our-vision li {
+    line-height: 36px;
+    font-size: 18px;
+    color: #858585;
+}
+
+/*email-input*/
+form {
+    display: flex;
+    /* Use flexbox to arrange items in a row */
+    flex-wrap: wrap;
+    /* Allow items to wrap to the next line if necessary */
+    justify-content: center;
+    /* Center items horizontally */
+}
+
+/* Style for the input group */
+.input-group {
+    display: flex;
+    /* Use flexbox for the input and button */
+    margin-right: 11px;
+    /* Add some spacing between input and button */
+}
+
+/* Style for the email input */
+input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    color: #858585;
+    background-color: #131313;
+    margin-right: 1px;
+}
+
+/* Style for the email input when it's focused */
+input[type="email"]:focus {
+    border-color: #858585;
+    outline: none;
+}
+
+/* Style for the placeholder text in the email input */
+input[type="email"]::placeholder {
+    color: #999;
+}
+
+/* Style for the button */
+button {
+    background-color: #131313;
+    color: #858585;
+    border: none;
+    border-radius: 4px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+/* Style for the button on hover */
+button:hover {
+    /* background-color: #858585;*/
+}
+
+
+
+
+
+
+
+
+
+
+/*rights*/
+.center-abvcopy {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2px;
+    background-color: #131313;
+}
+
+.center-copy-info {
+    padding-top: 12px;
+    text-align: center;
+    background-color: black;
+    padding-bottom: 12px;
+    margin: 0 auto;
+    width: 100%;
+    display: flex;
+    overflow: hidden;
+    flex-wrap: wrap;
+}
+
+.center-copy-info p {
+    font-size: 12px;
+    color: white;
+
+}
+
+
+
+/*media for tab**/
+@media (max-width:768px) {
+    .info-tabs.social-temp {
+        width: 100%;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+    .info-tabs.tabular {
+        width: 49%;
+        margin-top: 45px;
+        margin-bottom: 45px;
+    }
+}
+
+@media (max-width:480px) {
+    .center-logo {
+        margin-bottom: 5px; 
+    }
+    .center-logo img {
+        height: auto;
+        max-width: 178px;
+    }
+    .contact-info {
+        padding-top: 0px;
+    }
+    .info-tabs.tabular {
+        margin-bottom: 5px;
+    }
+    .manage{
+        font-size: 38px;
+    }
+    .info-tabs.manage li:nth-child(2), .info-tabs.manage li:nth-child(3) {
+        font-size: 38px;
+    }
+    .our-vision li {
+        line-height: 25px;
+        font-size: 15px;
+    }
+
+    .social-net {
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+    }
+}
