@@ -45,6 +45,7 @@
 	border-radius: 20px;
 	padding: 12px 55px 19px 55px;
 	margin-bottom: 10px;
+	
 }
 
 .cta-container h1 {
@@ -58,6 +59,7 @@
 	border-radius: 20px;
 	padding: 10px 40px 12px 20px;
 	text-align: center;
+	box-shadow: 5px 11px 25px 3px #131313;
 }
 
 .ctaInfo-container p {
