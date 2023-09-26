@@ -87,13 +87,11 @@
 }
 .con-social {
 	background-color: #cacaca;
-	padding: 1px 9px 0px 9px;
-	border-radius: 50%;
+    padding: 0px 7px 0px 8px;
+    border-radius: 50%;
 }
-.sum-mod {
-	width: 30px;
-	height: 27px;
-} 
+
+.sum-mod {  width: 26px;  height: 24px; }
 
 .our-vision li {
     line-height: 36px;
