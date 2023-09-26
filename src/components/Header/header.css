@@ -76,6 +76,11 @@ li {
   width: 140px;
   height: 77px;
 }
+.logo-container video {
+  width: 140px;
+  height: 77px;
+  justify-content: flex-end;
+}
 
 .header-banner {
   position: relative;
