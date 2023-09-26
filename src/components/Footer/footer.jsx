@@ -1,3 +1,4 @@
+import React from 'react';
 import './footer.css'
 
 const Footer = () => {
@@ -10,7 +11,7 @@ const Footer = () => {
         </div>
         <div className="contact-info">
           <div className='info-tabs manage tabular'>
-            <ul>
+            <ul className='main-vision'>
               <li>About</li>
               <li>Services</li>
               <li>Contact US</li>

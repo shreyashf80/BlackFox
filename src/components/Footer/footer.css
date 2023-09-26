@@ -1,3 +1,10 @@
+
+@font-face {
+    font-family: 'customfont';
+    src: url('../../proxima_nova/talldark.ttf') format('opentype');
+    
+  }
+
 .center-logo {
     display: flex;
     align-items: center;
@@ -27,6 +34,7 @@
     width: 33.33%;
     display: flex;
     color: white;
+   
 
 }
 
@@ -48,9 +56,16 @@
 .info-tabs.manage li:nth-child(2),
 .info-tabs.manage li:nth-child(3) {
     color: #858585;
-    font-size: 45px;
+    font-size: 60px;
+   
 }
-
+.main-vision{
+    font-family: 'customfont';
+   
+}
+.main-vision li {
+    margin-bottom: 10px; /* Adjust the margin to create space between <li> elements */
+  }
 .our-mission {
     font-size: 17px;
     padding-bottom: 25px;
@@ -94,6 +109,7 @@
 .sum-mod {  width: 26px;  height: 24px; }
 
 .our-vision li {
+  
     line-height: 36px;
     font-size: 18px;
     color: #cacaca;
