@@ -5,7 +5,7 @@ import Footer from '../Footer/footer';
 
 import './homePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faThin, faArrowDown } from '@fortawesome/free-solid-svg-icons';
+import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
   return (

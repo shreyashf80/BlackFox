@@ -20,14 +20,13 @@
 
 .banner-text {
 	display: flex;
+	width: 100%;
 	flex-direction: column;
 	flex-wrap: wrap;
 	position: absolute;
 	text-align: center;
-	border-radius: 20px;
 	padding: 12px 55px 19px 55px;
 	z-index: 2;
-	bottom: 20px;
 	top: 44%;
 	left: 50%;
 	transform: translateX(-50%);
@@ -41,29 +40,29 @@
 
 .cta-container {
 	background-color: black;
-	opacity: 0.8;
+	opacity: 0.7	;
 	border-radius: 20px;
 	padding: 12px 55px 19px 55px;
 	margin-bottom: 10px;
-	box-shadow: 1px 0px 1px 1px #131313;
+	
 }
 
 .cta-container h1 {
-	font-size: 29px;
+	font-size: 45px;
 	color: white;
 }
 
 .ctaInfo-container {
 	background-color: #131313;
-	opacity: 0.8;
+	opacity: 0.7;
 	border-radius: 20px;
-	padding: 10px 33px 12px 34px;
+	padding: 10px 12px 12px 34px;
 	text-align: center;
 	box-shadow: 5px 11px 25px 3px #131313;
 }
 
 .ctaInfo-container p {
-	font-size: 16px;
+	font-size: 25px;
 	font-weight: 200;
 }
 
