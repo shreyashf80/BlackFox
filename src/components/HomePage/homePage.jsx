@@ -19,7 +19,7 @@ const HomePage = () => {
         />
         <div className="banner-text">
           <div className="cta-container">
-            <h1>People, Process Technology Experts</h1>
+            <h1>People, Process and Technology Experts</h1>
           </div>
 
           <div className="ctaInfo-container">
