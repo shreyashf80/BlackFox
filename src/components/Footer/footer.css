@@ -23,19 +23,22 @@
     flex-wrap: wrap;
 }
 
-.info-tabs {
+.info-tabs {    
     width: 33.33%;
     display: flex;
-    font-size: 32px;
     color: white;
+
 }
 
 .info-tabs.social-temp {
-    width: 33.33%;
-    display: flex;
-    flex-direction: column;
-    font-size: 32px;
-    color: white;
+	width: 33.33%;
+	display: flex;
+	flex-direction: column;
+	font-size: 32px;
+	color: white;
+	flex: 1;
+	align-self: end;
+	margin-bottom: 20px;
 }
 
 .manage {
@@ -60,13 +63,6 @@
 
 }
 
-.sum-mod {
-    background-color: #c8c8c8;
-    border-radius: 50%;
-    margin-left: -5px;
-    margin-bottom: 21px;
-    padding: 5px;
-}
 
 
 .footer-conatiner {
@@ -85,13 +81,24 @@
 }
 
 .social-net {
-    display: flex;
+	display: flex;
+	gap: 38px;
+	margin: 0px 50px 29px 3px;
 }
+.con-social {
+	background-color: #cacaca;
+	padding: 1px 9px 0px 9px;
+	border-radius: 50%;
+}
+.sum-mod {
+	width: 30px;
+	height: 27px;
+} 
 
 .our-vision li {
     line-height: 36px;
     font-size: 18px;
-    color: #858585;
+    color: #cacaca;
 }
 
 /*email-input*/
@@ -234,3 +241,4 @@ button:hover {
         gap: 30px;
     }
 }
+
