@@ -45,11 +45,11 @@
 	border-radius: 20px;
 	padding: 12px 55px 19px 55px;
 	margin-bottom: 10px;
-	
+	box-shadow: 1px 0px 1px 1px #131313;
 }
 
 .cta-container h1 {
-	font-size: 32px;
+	font-size: 29px;
 	color: white;
 }
 
@@ -57,7 +57,7 @@
 	background-color: #131313;
 	opacity: 0.8;
 	border-radius: 20px;
-	padding: 10px 40px 12px 20px;
+	padding: 10px 33px 12px 34px;
 	text-align: center;
 	box-shadow: 5px 11px 25px 3px #131313;
 }
