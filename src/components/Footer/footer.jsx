@@ -60,7 +60,7 @@ const Footer = () => {
               </ul>
             </div>
             <form>
-              <div class="input-group">
+              <div className="input-group">
                 <input type="email" id="email" name="email" placeholder="Enter your email" />
                 <button type="submit">Submit</button>
               </div>
