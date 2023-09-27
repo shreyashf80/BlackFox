@@ -1,4 +1,18 @@
 /* HomePage.css */
+
+/* custom font import  */
+
+@font-face {
+	font-family: 'div1font';
+	src: url('../../proxima_nova/Proxima\ Nova\ Bold.otf') format('opentype');
+	
+  }
+  @font-face {
+	font-family: 'div2font';
+	src: url('../../proxima_nova/Proxima\ Nova\ Thin.otf') format('opentype');
+	
+  }
+
 /* Base styles for all screen sizes */
 .banner-container {
 	position: relative;
@@ -46,11 +60,13 @@
 	padding: 12px 55px 19px 55px;
 	margin-bottom: 10px;
 	box-shadow: 1px 0px 1px 1px #131313;
+
 }
 
 .cta-container h1 {
 	font-size: 29px;
 	color: white;
+	font-family: 'div1font';
 }
 
 .ctaInfo-container {
@@ -65,6 +81,7 @@
 .ctaInfo-container p {
 	font-size: 16px;
 	font-weight: 200;
+	font-family: 'div2font';
 }
 
 .ctadownarrow-container {

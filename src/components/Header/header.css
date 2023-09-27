@@ -1,3 +1,11 @@
+/* font import  */
+@font-face {
+  font-family: 'navbarfont';
+  src: url('../../proxima_nova/ProximaNova-Regular.otf') format('opentype');
+  
+}
+
+
 /* Base styles for all screen sizes */
 .header-main {
   background-color: #131313;
@@ -31,6 +39,7 @@
 .category-container {
   display: flex;
   border-radius: 20px;
+  font-family:'navbarfont'
 }
 
 .head-left {
@@ -44,11 +53,12 @@
 a {
   color: white;
   font-size: 24px;
+  opacity: 0.5;
 }
 
 
 .content-in:hover {
-	border-bottom: 2px solid white;
+  opacity: 1;
 }
 
 li {

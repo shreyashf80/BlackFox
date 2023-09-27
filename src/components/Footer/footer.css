@@ -34,7 +34,7 @@
     width: 33.33%;
     display: flex;
     color: white;
-   
+    
 
 }
 
@@ -47,25 +47,39 @@
 	flex: 1;
 	align-self: end;
 	margin-bottom: 20px;
+    
 }
 
 .manage {
-    font-size: 45px;
+    font-size: 90px;
 }
 
-.info-tabs.manage li:nth-child(2),
+/* .info-tabs.manage li:nth-child(2),
 .info-tabs.manage li:nth-child(3) {
     color: #858585;
     font-size: 60px;
    
-}
+} */
 .main-vision{
     font-family: 'customfont';
    
 }
 .main-vision li {
-    margin-bottom: 10px; /* Adjust the margin to create space between <li> elements */
+    margin-bottom: 30px; 
+    transition: transform 0.3s ease-in-out;
+    opacity: 0.5;
   }
+  .main-vision li:hover {
+    opacity: 1.5;
+    transform: scale(1.2);
+  }
+  
+  
+ 
+
+
+
+
 .our-mission {
     font-size: 17px;
     padding-bottom: 25px;
