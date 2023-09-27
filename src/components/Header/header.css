@@ -53,10 +53,12 @@
 a {
   color: white;
   font-size: 24px;
-  opacity: 0.5;
+
 }
 
-
+.content-in {
+  opacity: 0.5;
+}
 .content-in:hover {
   opacity: 1;
 }
