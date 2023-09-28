@@ -6,11 +6,15 @@ import Footer from '../Footer/footer';
 import './homePage.css';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faThin, faArrowDown } from '@fortawesome/free-solid-svg-icons';
+// import Sidebar from '../Sidebar/Sidebar';
 
 const HomePage = () => {
   return (
+    <>
     <div className='homepage-main'>
-      <Header />
+    <section>
+    <Header/> 
+    </section>
       <section>
       <div className="banner-container">
         <img
@@ -55,6 +59,7 @@ const HomePage = () => {
       <Footer />
       </section>
     </div>
+    </>
   );
 }
 
