@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <header className="header-main">
       <div className="headcontain">
-        {/* <div className="megaMenu-container">
+        <div className="megaMenu-container">
           <div className="head-left">
             <ul className="category-container">
               <li><a className='content-in' href="/">Home</a></li>
@@ -22,12 +22,12 @@ const Header = () => {
               <li className="lang-lev1"><a className="lang-switch" href="/EN">en</a></li>
             </ul>
           </div>
-        </div> */}
+        </div>
         <div className="logo-container">
           <a href='#'>
             <img
               className='logo-main'
-              src='./assets/goldfoxfavicon.png'
+              src='./assets/goldfox.png'
               alt="red-fox"
               width="100"
               height="180"

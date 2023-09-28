@@ -12,7 +12,9 @@ const HomePage = () => {
   return (
     <>
     <div className='homepage-main'>
+    <section>
     <Header/> 
+    </section>
       <section>
       <div className="banner-container">
         <img
