@@ -5,10 +5,10 @@ const Footer = () => {
   return (
     <div className='footer-conatiner'>
       <div className='footer-menu'>
-        <div className="center-logo">
+        {/* <div className="center-logo">
           <img src='./assets/goldfox.png'
             alt="ora-fox" />
-        </div>
+        </div> */}
         <div className="contact-info">
           <div className='info-tabs manage tabular'>
             <ul className='main-vision'>
