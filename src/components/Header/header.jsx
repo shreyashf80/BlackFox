@@ -27,7 +27,7 @@ const Header = () => {
           <a href='#'>
             <img
               className='logo-main'
-              src='./assets/goldfox.png'
+              src='./assets/goldfoxfavicon.png'
               alt="red-fox"
               width="100"
               height="180"

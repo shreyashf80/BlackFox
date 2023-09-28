@@ -9,8 +9,9 @@ import { faThin, faArrowDown } from '@fortawesome/free-solid-svg-icons';
 
 const HomePage = () => {
   return (
-    <>
+    <div className='homepage-main'>
       <Header />
+      <section>
       <div className="banner-container">
         <img
           className="banner-image"
@@ -34,6 +35,8 @@ const HomePage = () => {
         </div>
 
       </div>
+      </section>
+      <section>
       <div className='team-section-main'>
         <div className='our-team'>
           <div className='team-there'>
@@ -47,8 +50,11 @@ const HomePage = () => {
           </div>
         </div>
       </div>
+      </section>
+      <section>
       <Footer />
-    </>
+      </section>
+    </div>
   );
 }
 

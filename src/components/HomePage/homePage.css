@@ -158,7 +158,20 @@
 	/* transform: scale(1.2); */
 	transition: transform 0.5s;
 }
+/* HomePage.css */
 
+.homepage-main {
+	scroll-snap-type: y mandatory;
+	overflow-y: scroll;
+	height: 100vh;
+	 /* Set the height of the container */
+  }
+  
+  .homepage-main section {
+	
+	scroll-snap-align: start;
+  }
+  
 /* Media query for tablets */
 @media (max-width: 768px) {
 	.banner-text {

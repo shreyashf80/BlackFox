@@ -1,0 +1,48 @@
+/* Sidebar.css */
+.sidebar {
+    width: 250px;
+    height: 100%;
+    background-color: #3498db; /* Blue background color */
+    position: fixed;
+    top: 0;
+    left: 0;
+    padding: 20px;
+    color: #fff;
+  }
+  
+  .sidebar ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .sidebar ul li {
+    margin-bottom: 10px;
+  }
+  
+  .sidebar ul li a {
+    text-decoration: none;
+    color: #fff;
+    transition: color 0.2s; /* Smooth color transition on hover */
+  }
+  
+  .sidebar ul li:hover {
+    background-color: #2980b9; /* Darker blue on hover */
+  }
+  
+  /* Add some additional styles for colorful text */
+  .sidebar ul li:nth-child(1) {
+    color: #e74c3c; /* Red */
+  }
+  
+  .sidebar ul li:nth-child(2) {
+    color: #27ae60; /* Green */
+  }
+  
+  .sidebar ul li:nth-child(3) {
+    color: #f1c40f; /* Yellow */
+  }
+  
+  .sidebar ul li:nth-child(4) {
+    color: #9b59b6; /* Purple */
+  }
+  
