@@ -95,13 +95,13 @@
 
 
 .footer-conatiner {
-    position: absolute;
+   
     left: 0;
     transform: translateX(0%);
     width: 100%;
     overflow: hidden;
     background-color: black;
-    position: absolute;
+   
     z-index: 2;
     width: 100%;
     border-top-left-radius: 25px;

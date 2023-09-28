@@ -9,9 +9,8 @@
 /* Base styles for all screen sizes */
 .header-main {
   background-color: #131313;
-  height: 103px;
-  border-bottom-left-radius: 45px;
-  border-bottom-right-radius: 45px;
+  height: 70px;
+ 
   box-shadow: 13px 7px 21px 4px #131313;
   position: absolute;
   z-index: 2;
@@ -85,8 +84,8 @@ li {
 }
 
 .logo-container img {
-  width: 140px;
-  height: 77px;
+  width: 74px;
+  height: 54px;
 }
 .logo-container video {
   width: 140px;

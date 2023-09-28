@@ -6,7 +6,7 @@ import './App.css'; // Import your global CSS file
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faArrowDown } from '@fortawesome/free-solid-svg-icons';
 import Loading from './components/Loading/Loading';
-
+import Sidebar from './components/Sidebar/Sidebar';
 const App = () => {
   const [showGif, setShowGif] = useState(true);
 
@@ -23,8 +23,10 @@ const App = () => {
     <div className="App">
     {showGif ? (
       <Loading/> 
-      ) : (
+      ) : (<div >
+      <Sidebar/> 
       <HomePage/> 
+      </div>
       )}
     </div>
   );
